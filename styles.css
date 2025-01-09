@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Color de fondo suave */
+    color: #333; /* Color del texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    width: 300px; /* Ancho fijo */
+}
+
+h1 {
+    color: #4a90e2; /* Color del título */
+}
+
+button {
+    padding: 15px 25px; /* Espaciado interno */
+    font-size: 18px; /* Tamaño de fuente */
+    cursor: pointer;
+    margin: 10px;
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #4a90e2; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+button:hover {
+    background-color: #357ab8; /* Color al pasar el mouse */
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+    width: calc(100% - 22px); /* Ajustar el ancho */
+}
+
+ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+}
+
+li {
+    padding: 5px 0; /* Espaciado entre elementos de la lista */
+}

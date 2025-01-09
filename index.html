@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Clicks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Juego de Clicks</h1>
+        <div id="start-screen">
+            <button id="start-button">Comenzar</button>
+        </div>
+        <div id="game-screen" style="display: none;">
+            <h2>Ingresa tu nombre:</h2>
+            <input type="text" id="username" placeholder="Tu nombre">
+            <button id="submit-name">Aceptar</button>
+            <h2 id="score-title" style="display: none;">¡Haz clic en el botón!</h2>
+            <button id="click-button" style="display: none;">¡Clic aquí!</button>
+            <h2 id="score" style="display: none;">Puntaje: <span id="score-value">0</span></h2>
+            <button id="show-ranking" style="display: none;">Mostrar Ranking</button>
+        </div>
+        <div id="ranking" style="display: none;">
+            <h2>Ranking</h2>
+            <ul id="ranking-list"></ul>
+            <button id="back-to-game">Volver al juego</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
